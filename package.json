@@ -1,7 +1,7 @@
 {
   "name": "grunt-cssretarget",
   "description": "Retarget css image URLs to new destination.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/ruff/grunt-cssretarget",
   "author": {
     "name": "Alex Soncodi",
