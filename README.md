@@ -53,7 +53,7 @@ Default value: `''`
 String prepended to each asset URL.
 
 ### Release History
-#### 1.0.0
+#### 1.0.1
   Move repos
 #### 0.1.0 - 0.1.1
   Initial release
