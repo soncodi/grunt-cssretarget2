@@ -1,4 +1,4 @@
-# grunt-cssretarget
+# grunt-cssretarget2
 
 > Retarget css image URLs to new destination.
 
@@ -8,23 +8,23 @@ This plugin requires Grunt `~0.4.2`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-cssretarget --save-dev
+npm install grunt-cssretarget2 --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-cssretarget');
+grunt.loadNpmTasks('grunt-cssretarget2');
 ```
 
-## The "cssretarget" task
+## The "cssretarget2" task
 
 ### Overview
-In your project's Gruntfile, add a section named `cssretarget` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `cssretarget2` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  cssretarget: {
+  cssretarget2: {
     prep: {
       options: {
         retarget: 'dist',
@@ -53,7 +53,7 @@ Default value: `''`
 String prepended to each asset URL.
 
 ### Release History
-#### 1.0.1
+#### 2.0.0
   Move repos
 #### 0.1.0 - 0.1.1
   Initial release

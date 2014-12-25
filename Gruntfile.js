@@ -1,6 +1,6 @@
 /*
- * grunt-cssretarget
- * https://github.com/ruff/grunt-cssretarget
+ * grunt-cssretarget2
+ * https://github.com/soncodi/grunt-cssretarget2
  *
  * Copyright (c) 2014 Alex Soncodi
  * Licensed under the MIT license.
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    cssretarget: {
+    cssretarget2: {
       default_options: {
         options: {
         },
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'cssretarget', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'cssretarget2', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

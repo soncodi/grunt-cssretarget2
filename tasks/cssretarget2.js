@@ -1,6 +1,6 @@
 /*
- * grunt-cssretarget
- * https://github.com/ruff/grunt-cssretarget
+ * grunt-cssretarget2
+ * https://github.com/ruff/grunt-cssretarget2
  *
  * Copyright (c) 2014 Alex Soncodi
  * Licensed under the MIT license.
@@ -11,7 +11,7 @@
 module.exports = function(grunt) {
   var path = require('path');
 
-  grunt.registerMultiTask('cssretarget', 'Retarget css image URLs to new destination.', function() {
+  grunt.registerMultiTask('cssretarget2', 'Retarget css image URLs to new destination.', function() {
     var options = this.options();
     var rgSrc = /(?:src=|url\(\s*)['"]?([^'"\)]+)['"]?\s*\)?/gm;
 
