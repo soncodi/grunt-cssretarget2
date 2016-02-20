@@ -1,3 +1,4 @@
+# DEPRECATED: This plugin is not maintained.
 # grunt-cssretarget2
 
 > Retarget css image URLs to new destination.
