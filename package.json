@@ -1,7 +1,7 @@
 {
   "name": "grunt-cssretarget2",
   "description": "Retarget css image URLs to new destination.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "tasks/cssretarget2.js",
   "homepage": "https://github.com/soncodi/grunt-cssretarget2",
   "author": {
@@ -31,7 +31,7 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.2"
+    "grunt": ">=0.4.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
